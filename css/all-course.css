@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.nav-banner {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+
+.logo-img {
+    width: 160px;
+    height: 50px;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-menu ul li {
+    list-style: none;
+    font-weight: 400;
+    margin: 0px 20px;
+}
+
+.sign-in-btn {
+    background: #21B573;
+    outline: none;
+    border: none;
+    padding: 12px 28px 12px 28px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 33px;
+}
+
+.all-courses {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.page-title {
+    color: #413960;
+    line-height: 54px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.courses-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+
+.course-cart {
+    width: 27%;
+    padding: 20px 10px;
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+}
+
+.cart-img {
+    width: 20px;
+    height: 20px;
+    border-radius: 11px;
+}
+
+.cart-course-name {
+    color: #413960;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cart-course-price {
+    color: #585859;
+    font-size: 14px;
+}
+
+.price-section {
+    margin: 10px 0px;
+}
+
+.count-total {
+    width: 50%;
+    text-align: right;
+}
+
+.sub-total {
+    color: #585859;
+    font-size: 14px;
+}
+
+.items-count {
+    color: #585859;
+    font-size: 10px;
+}
+
+.amount {
+    color: #585859;
+    font-size: 20px;
+}
+
+.checkout-btn {
+    text-align: right;
+    width: 100%;
+}
+
+
+.added-course {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin: 10px 0px;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 20px;
+}
+
+.delete-btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.dlt-btn-img {
+    width: 20px;
+    height: 20px;
+}
+
+.courses {
+    width: 73%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    /* margin: 30px 0px; */
+}
+
+.course {
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    padding: 15px 10px;
+    border-radius: 18px;
+}
+
+.course-title {
+    color: #413960;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.price {
+    color: #585859;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.buy-btn {
+    background: #21B573;
+    outline: none;
+    border: none;
+    padding: 7px 19px;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-radius: 33px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.course-img {
+    width: 100%;
+}
+
+.date-seat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-seat p {
+    color: #585859;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.date-seat img {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.cart-img {
+    width: 50px;
+    height: 50px;
+}
+
+/* footer css  */
+.footer {
+    background: #282531;
+    color: #FFFFFF;
+    padding: 40px 0px;
+}
+
+.main-footer {
+    width: 77%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    color: #CDCDCD;
+}
+
+.logo-section-text {
+    margin-top: 20px;
+}
+
+.ul-li {
+    list-style: none;
+    margin: 10px 0px;
+}
+
+.ul-li li {
+    margin: 10px 0px;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.w-30 {
+    width: 25%;
+}
+
+.w-37 {
+    width: 45%;
+}
+
+.footer-text {
+    color: #CDCDCD;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* responsive for mobile  */
+@media only screen and (max-width: 390px) {}
+
+/* responsive for mobile  */
